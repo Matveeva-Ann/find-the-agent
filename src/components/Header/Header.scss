@@ -3,6 +3,14 @@
   height: 100vh;
   background-color: var(--accentColorBg);
   padding: clamp(10px, 1.8vw, 27px) clamp(16px, 3vw, 44px);
+<<<<<<< HEAD
+=======
+
+  @media (width < 670px) {
+    width: 100%;
+    height: 50px;
+  }
+>>>>>>> 4c86b28aa5cb950d7abede5f09b0291c58c8d3b0
 }
 
 .header__title {
@@ -28,6 +36,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  @media (width < 670px) {
+    display: none;
+  }
 }
 
 .header__slogan {

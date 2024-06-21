@@ -48,7 +48,7 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  padding: 30px;
+  padding: clamp(10px, 2vw, 30px);
   padding-left: 60px;
   width: 100%;
   font-family: "Montserrat-Regular";
@@ -75,7 +75,7 @@
   display: flex;
   align-items: center;
   border: 1px solid var(--borderColor);
-  padding: 4px 17px;
+  padding: 4px clamp(8px, 1vw, 17px);
   border-bottom: none;
   cursor: pointer;
 
